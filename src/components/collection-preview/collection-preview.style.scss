@@ -1,0 +1,19 @@
+.collection-preview {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+  
+    .title {
+      font-size: 28px;
+      margin-bottom: 25px;
+      letter-spacing: 8px;
+      border-left: 100px solid #444c;
+      border-radius: 20px;
+      padding-left: 20px;
+    }
+  
+    .preview {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
